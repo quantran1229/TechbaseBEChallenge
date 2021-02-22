@@ -1,0 +1,55 @@
+{
+  "name": "techbasebecode",
+  "version": "0.1.0",
+  "description": "Backend for techbase code challenge for BE position",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test --require @babel/register --timeout 10000",
+    "start": "nodemon --exec babel-node src/app.js",
+    "serve": "node dist/app.js",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantran1229/TechbaseBEChallenge.git"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "Quan Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantran1229/TechbaseBEChallenge/issues"
+  },
+  "homepage": "https://github.com/quantran1229/TechbaseBEChallenge#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "kcors": "^2.2.2",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^10.0.0",
+    "npx": "^10.2.2",
+    "parameter": "^3.6.0",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/node": "^7.12.17",
+    "@babel/plugin-transform-runtime": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/register": "^7.12.13",
+    "@babel/runtime": "^7.12.18",
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "faker": "^5.4.0",
+    "mocha": "^8.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
