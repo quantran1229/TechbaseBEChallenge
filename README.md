@@ -45,7 +45,7 @@ Query: projectId //filter for members work in project with id = projectId
 This request will return all members base on which members login
 
 ## Testing
-to test
+To test, using mocha
 ```bash
 npm test
 ```
