@@ -49,3 +49,6 @@ to test
 ```bash
 npm test
 ```
+
+## Additional information
+POSTMAN link: https://www.getpostman.com/collections/1fd81f25779d578cb33f
